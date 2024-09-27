@@ -26,6 +26,23 @@
       border-radius: 8px;
     }
 
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    tr {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 2px solid bisque;
+    }
+
+    tr.last {
+      padding: 8px;
+      text-align: left;
+      border-bottom: none;
+    }
+
   </style>
 </head>
 <body>
@@ -40,57 +57,71 @@
   to perfection, optionally filled with your choice of cheese, vegetables, or meats.
 </p>
 
-  <div class="center">
+  <div class="center" id="preptime">
   <h3>Preparation time</h3>
 
   <ul>
     <li><strong>Total:</strong> Approximately 10 minutes</li>
     <li><strong>Preparation:</strong> 5 minutes</li>
     <li><strong>Cooking:</strong> 5 minutes</li>
-</div>
+  </div>
 
-  Ingredients
+  <div class="center" id="ingredients">
 
-  2-3 large eggs
-  Salt, to taste
-  Pepper, to taste
-  1 tablespoon of butter or oil
-  Optional fillings: cheese, diced vegetables, cooked meats, herbs
+  <h3>Ingredients</h3>
 
-  Instructions
+  <ul>
+    <li>2-3 large eggs</li>
+    <li>Salt, to taste</li>
+    <li>Pepper, to taste</li>
+    <li>1 tablespoon of butter or oil</li>
+    <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+  </ul>
+  </div>
 
-  Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
+  <div class="center" id="instructions">
+  <h3>Instructions</h3>
 
-  Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+  <ol>
+  <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  You can add a tablespoon of water or milk for a fluffier texture.</li>
+  <li><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+  <li><strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  the eggs evenly coat the surface.</li>
+  <li><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the 
+  middle, sprinkle your chosen fillings over one half of the omelette.</li>
+  <li><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.</li>
+  <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
+  </ol>
 
-  Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.
+  </div>
 
-  Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
+  <div class="center" id="nutrition">
+  <h3>Nutrition</h3>
 
-  Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-  fillings. Let it cook for another minute, then slide it onto a plate.
+  <p>The table below shows nutritional values per serving without the additional fillings.</p>
 
-  Enjoy: Serve hot, with additional salt and pepper if needed.
+  <table>
+    <tr>
+      <td>Calories</td>
+      <td>277kcal</td>
+    </tr>
+    <tr class="borderline">
+      <td>Carbs</td>
+      <td>0g</td>
+    </tr>
+    <tr>
+      <td>Protein</td>
+      <td>20g</td>
+    </tr>
+    <tr class="last">
+      <td>Fat</td>
+      <td>22g</td>
+    </tr>
+  </table>
+  </div>
 
-  Nutrition
-
-  The table below shows nutritional values per serving without the additional fillings.
-
-  Calories
-  277kcal
-
-  Carbs
-  0g
-
-  Protein
-  20g
-
-  Fat
-  22g
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
