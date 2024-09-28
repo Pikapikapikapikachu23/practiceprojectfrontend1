@@ -6,8 +6,9 @@
     color: hsl(228, 45%, 44%); 
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: "Young Serif",serif;
+    color: #8b422f;
 }
 
 p, li {
@@ -15,6 +16,14 @@ p, li {
     color: #6a6865;
 }
 
+h3 {
+    font-family: "Outfit",sans-serif;
+    color: #6c1c3b;
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+  }
 
 @media (min-width: 481px) {
 
@@ -34,18 +43,37 @@ p, li {
     
     li {
         padding-left: 15px;
+        padding-bottom: 15px;
     }
 
-    /* li::before {
-        content: "";
-        width: 20px;
-        display: inline-block;
-      } */
+    .purplebox {
+        background-color: #fff7fc;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+    ul.color1 li::marker {
+        color: #8b422f;
+    }
+
+    ul.color2 li::marker {
+        color: #6c1c3b;
+    }
 
     ol li::marker {
         color: #8b422f;
         font-weight: bold;
     }
+
+    ul li::marker {
+        font-size: 70%;
+    }
+
+/* fix this so that the color is the color of the. the fucking um. the list title thing yeah */
+
+    /* ul li::marker {
+        color: black;
+    }*/
 
     td {
         font-family: "Outfit",sans-serif;
