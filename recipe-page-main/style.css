@@ -6,6 +6,16 @@
     color: hsl(228, 45%, 44%); 
 }
 
+h1, h2, h3 {
+    font-family: "Young Serif",serif;
+}
+
+p, li {
+    font-family: "Outfit",sans-serif;
+    color: #6a6865;
+}
+
+
 @media (min-width: 481px) {
 
     .container {
@@ -21,14 +31,20 @@
         padding: 3%;
         background-color: #f3e5d8;
     }
-
-    h1, h2, h3 {
-        font-family: "Young Serif",serif;
+    
+    li {
+        padding-left: 15px;
     }
 
-    p, li {
-        font-family: "Outfit",sans-serif;
-        color: #6a6865;
+    /* li::before {
+        content: "";
+        width: 20px;
+        display: inline-block;
+      } */
+
+    ol li::marker {
+        color: #8b422f;
+        font-weight: bold;
     }
 
     td {
