@@ -1,0 +1,46 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.body {
+    font-family: serif;
+}
+
+/* uhhhhhhhhhhhh RIGHT okay so max width for mobile device is 480px. */
+
+@media (min-width: 481px) {
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    img {
+        border-radius: 8px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    tr {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 2px solid bisque;
+    }
+    
+    tr.last {
+        padding: 8px;
+        text-align: left;
+        border-bottom: none;
+    }
+
+}
+
