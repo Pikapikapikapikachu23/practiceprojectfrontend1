@@ -8,16 +8,24 @@
 
 @media (min-width: 481px) {
 
+    .container {
+        background-color: white;
+        margin: auto;
+    }
+
     body {
         font-family: serif;
         padding: 3%;
+        background-color: #f3e5d8;
     }
 
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    h1, h2 {
+        font-family: "Young Serif",serif;
+    }
+
+    p, li {
+        font-family: "Outfit",sans-serif;
+        color: #6a6865;
     }
     
     img {
@@ -35,18 +43,17 @@
         border-bottom: 2px solid bisque;
     }
     
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
     tr.last {
         padding: 8px;
         text-align: left;
         border-bottom: none;
-    }
-
-    h1, h3 {
-        font-family: "Young Serif",serif;
-    }
-
-    p, li {
-        font-family: "Outfit",sans-serif;
     }
 
 }
