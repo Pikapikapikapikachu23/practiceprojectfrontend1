@@ -6,8 +6,6 @@
     color: hsl(228, 45%, 44%); 
 }
 
-/* uhhhhhhhhhhhh RIGHT okay so max width for mobile device is 480px. */
-
 @media (min-width: 481px) {
 
     body {
@@ -43,5 +41,14 @@
         border-bottom: none;
     }
 
+    h1, h3 {
+        font-family: "Young Serif",serif;
+    }
+
+    p, li {
+        font-family: "Outfit",sans-serif;
+    }
+
 }
 
+/* add mobile version here, remember 480px max-width */
